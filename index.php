@@ -748,7 +748,7 @@
                                         <!-- Service Image End -->
                                     </div>
                                 </div>
-                                <!-- Product Slide End -->
+                                <!-- Product Slide Ends -->
 
                                 <!-- Product Slide Start -->
                                 <div class="swiper-slide">
