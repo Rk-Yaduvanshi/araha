@@ -1,0 +1,284 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mission & Vision Section</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+        }
+
+        body {
+            background: linear-gradient(135deg, #1a2a6c, #b21f1f, #fdbb2d);
+            color: #fff;
+            min-height: 100vh;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            width: 100%;
+        }
+
+        .section-title {
+            text-align: center;
+            margin-bottom: 60px;
+        }
+
+        .section-title h1 {
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 15px;
+            text-transform: uppercase;
+            letter-spacing: 2px;
+            text-shadow: 2px 2px 8px rgba(0, 0, 0, 0.3);
+        }
+
+        .section-title p {
+            font-size: 1.2rem;
+            max-width: 600px;
+            margin: 0 auto;
+            opacity: 0.9;
+        }
+
+        .cards-container {
+            display: flex;
+            justify-content: center;
+            gap: 40px;
+            flex-wrap: wrap;
+        }
+
+        .card {
+            background: rgba(255, 255, 255, 0.1);
+            backdrop-filter: blur(10px);
+            border-radius: 20px;
+            padding: 40px 30px;
+            width: 100%;
+            max-width: 500px;
+            box-shadow: 0 15px 35px rgba(0, 0, 0, 0.2);
+            border: 1px solid rgba(255, 255, 255, 0.1);
+            transition: transform 0.5s ease, box-shadow 0.5s ease;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .card:hover {
+            transform: translateY(-15px);
+            box-shadow: 0 25px 50px rgba(0, 0, 0, 0.3);
+        }
+
+        .card::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 5px;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+        }
+
+        .mission::before {
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+        }
+
+        .vision::before {
+            background: linear-gradient(90deg, #f46b45, #eea849);
+        }
+
+        .card-icon {
+            width: 80px;
+            height: 80px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            margin-bottom: 25px;
+            font-size: 2.5rem;
+            color: #fff;
+        }
+
+        .mission .card-icon {
+            background: linear-gradient(135deg, #00c6ff, #0072ff);
+        }
+
+        .vision .card-icon {
+            background: linear-gradient(135deg, #f46b45, #eea849);
+        }
+
+        .card h2 {
+            font-size: 2.2rem;
+            margin-bottom: 20px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .card h2::after {
+            content: '';
+            position: absolute;
+            bottom: -10px;
+            left: 0;
+            width: 60px;
+            height: 4px;
+            background: linear-gradient(90deg, #ff8a00, #e52e71);
+            border-radius: 2px;
+        }
+
+        .mission h2::after {
+            background: linear-gradient(90deg, #00c6ff, #0072ff);
+        }
+
+        .vision h2::after {
+            background: linear-gradient(90deg, #f46b45, #eea849);
+        }
+
+        .card p {
+            font-size: 1.1rem;
+            line-height: 1.7;
+            margin-bottom: 25px;
+            opacity: 0.9;
+        }
+
+        .values-list {
+            list-style: none;
+            margin-top: 20px;
+        }
+
+        .values-list li {
+            padding: 10px 0;
+            border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+            display: flex;
+            align-items: center;
+        }
+
+        .values-list li:last-child {
+            border-bottom: none;
+        }
+
+        .values-list i {
+            margin-right: 10px;
+            color: #ff8a00;
+        }
+
+        .mission .values-list i {
+            color: #00c6ff;
+        }
+
+        .vision .values-list i {
+            color: #f46b45;
+        }
+
+        /* Animation for cards */
+        @keyframes fadeInUp {
+            from {
+                opacity: 0;
+                transform: translateY(30px);
+            }
+            to {
+                opacity: 1;
+                transform: translateY(0);
+            }
+        }
+
+        .card {
+            animation: fadeInUp 0.8s ease forwards;
+        }
+
+        .vision {
+            animation-delay: 0.3s;
+            opacity: 0;
+        }
+
+        /* Responsive design */
+        @media (max-width: 992px) {
+            .cards-container {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .card {
+                max-width: 90%;
+            }
+        }
+
+        @media (max-width: 576px) {
+            .section-title h1 {
+                font-size: 2.5rem;
+            }
+            
+            .card {
+                padding: 30px 20px;
+            }
+            
+            .card h2 {
+                font-size: 1.8rem;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="section-title">
+            <h1>Our Mission & Vision</h1>
+            <p>Driving innovation and creating value for our customers and communities</p>
+        </div>
+        
+        <div class="cards-container">
+            <div class="card mission">
+                <div class="card-icon">
+                    <i class="fas fa-bullseye"></i>
+                </div>
+                <h2>Our Mission</h2>
+                <p>To empower businesses and individuals through innovative technology solutions that simplify complex challenges and drive sustainable growth in a rapidly evolving digital landscape.</p>
+                <ul class="values-list">
+                    <li><i class="fas fa-check-circle"></i> Customer-centric approach</li>
+                    <li><i class="fas fa-check-circle"></i> Innovation and excellence</li>
+                    <li><i class="fas fa-check-circle"></i> Integrity and transparency</li>
+                    <li><i class="fas fa-check-circle"></i> Collaborative teamwork</li>
+                </ul>
+            </div>
+            
+            <div class="card vision">
+                <div class="card-icon">
+                    <i class="fas fa-eye"></i>
+                </div>
+                <h2>Our Vision</h2>
+                <p>To be the global leader in transformative technology solutions, creating a future where technology enhances human potential and fosters sustainable development for generations to come.</p>
+                <ul class="values-list">
+                    <li><i class="fas fa-star"></i> Global leadership in innovation</li>
+                    <li><i class="fas fa-star"></i> Sustainable development focus</li>
+                    <li><i class="fas fa-star"></i> Enhancing human potential</li>
+                    <li><i class="fas fa-star"></i> Creating lasting impact</li>
+                </ul>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        // Add scroll animation
+        document.addEventListener('DOMContentLoaded', function() {
+            const cards = document.querySelectorAll('.card');
+            
+            const observer = new IntersectionObserver((entries) => {
+                entries.forEach(entry => {
+                    if (entry.isIntersecting) {
+                        entry.target.style.animationPlayState = 'running';
+                    }
+                });
+            }, { threshold: 0.1 });
+            
+            cards.forEach(card => {
+                observer.observe(card);
+            });
+        });
+    </script>
+</body>
+</html>
