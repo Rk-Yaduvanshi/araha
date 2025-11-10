@@ -22,7 +22,7 @@
                     <!-- About Footer End -->
                 </div>
 
-                <div class="col-lg-3 col-md-4 col-6">
+                <div class="col-lg-2 col-md-4 col-6">
                     <!-- Footer Links Start -->
                     <div class="footer-links">
                         <h3>Our Focus</h3>
@@ -52,7 +52,7 @@
                     <!-- Footer Links End -->
                 </div>
 
-                <div class="col-lg-3 col-md-4">
+                <div class="col-lg-4 col-md-4">
                     <!-- Footer Contact Box Start -->
                     <div class="footer-contact-box footer-links">
                         <h3>Contact Us</h3>

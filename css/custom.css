@@ -1,9 +1,4 @@
-/* ----------------------------------------------------------------------------------------
-* Author        : Awaiken
-* Template Name : Dispnsary - Medical HTML Template
-* File          : CSS File
-* Version       : 1.0
-* ---------------------------------------------------------------------------------------- */
+
 /* INDEX
 ----------------------------------------------------------------------------------------
 01. Global Variables
@@ -198,7 +193,8 @@ body{
 	font-weight: 600;
 	line-height: 1em;
 	text-transform: capitalize;
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+	/* background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%); */
+	    background: linear-gradient(135deg, #1369b4, #4facfe);
 	color: var(--white-color);
 	border-radius: 50px;
 	padding: 17px 30px;
@@ -416,8 +412,9 @@ body{
 /************************************/
 
 .topbar{
-	background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
-	padding: 15px 0;
+	/* background: linear-gradient(90deg, var(--accent-color) 0%, var(--accent-color-two) 100%); */
+	    background: linear-gradient(135deg, #1369b4, #4facfe);
+	padding: 10px 0;
 }
 
 .topbar-contact-info ul{
@@ -914,7 +911,7 @@ header.main-header .header-sticky.active{
 }
 
 .hero-content .section-title p{
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .hero-btn{
@@ -1154,212 +1151,6 @@ header.main-header .header-sticky.active{
 /************************************/
 /***        05. About Us css      ***/
 /************************************/
-
-.about-us{
-	padding: 100px 0;
-}
-
-.about-us-content{
-	margin-right: 30px;
-}
-
-.about-us-body{
-	margin-bottom: 40px;
-}
-
-.about-info-item{
-	display: flex;
-	align-items: center;
-	margin-bottom: 30px;
-}
-
-.about-info-item:last-child{
-	margin-bottom: 0;
-}
-
-.about-info-item .icon-box{
-	position: relative;
-	width: 80px;
-	height: 80px;
-	background-color: var(--secondary-color);
-	border-radius: 50%;
-	display: flex;
-	justify-content: center;
-	align-items: center;
-	margin-right: 20px;
-	transition: all 0.4s ease-in-out;
-}
-
-.about-info-item:hover .icon-box{
-	background-color: transparent;
-}
-
-.about-info-item .icon-box::before{
-	content: '';
-	position: absolute;
-	top: 0;
-	bottom: 0;
-	left: 0;
-	right: 0;
-	background-color: var(--primary-color);
-	border-radius: 50%;
-	height: 100%;
-	width: 100%;
-	transform: scale(0);
-	transition: all 0.3s ease-in-out;
-}
-
-.about-info-item:hover .icon-box::before{
-	transform: scale(1);
-}
-
-.about-info-item .icon-box img{
-	position: relative;
-	max-width: 34px;
-	z-index: 1;
-	transition: all 0.3s ease-in-out;
-}
-
-.about-info-item:hover .icon-box img{
-	filter: brightness(0) invert(1);
-}
-
-.about-info-item-content{
-	width: calc(100% - 100px);
-}
-
-.about-info-item-content h3{
-	font-size: 20px;
-	text-transform: capitalize;
-	margin-bottom: 5px;
-}
-
-.about-info-item-content p{
-	margin: 0;
-}
-
-.about-us-images{
-	position: relative;
-	padding: 0 140px;
-}
-
-.about-img-1 img{
-	width: 100%;
-	border-radius: 46px;
-	aspect-ratio: 1 / 1.496;
-	object-fit: cover;
-}
-
-.about-img-2{
-	position: absolute;
-	top: 40px;
-	left: 0;
-	width: 100%;
-	max-width: 302px;
-	border: 10px solid var(--white-color);
-	border-radius: 46px;
-	z-index: 1;
-}
-
-.about-img-2 figure{
-	display: block;
-	background: var(--primary-color);
-	border-radius: 36px;
-	text-align: center;
-}
-
-.about-img-2 h3{
-	font-size: 16px;
-	font-weight: 700;
-	text-transform: uppercase;
-	color: var(--white-color);
-	padding: 10px 0;
-}
-
-.about-img-2 img{
-	width: 100%;
-    aspect-ratio: 1 / 0.965;
-    object-fit: cover;
-	border: 2px solid var(--white-color);
-	border-radius: 26px;	
-}
-
-.company-timing{
-	position: absolute;
-	bottom: 40px;
-	right: 0;
-	background-color: var(--accent-color);
-	border-radius: 20px;
-	width: 100%;
-	max-width: 350px;
-	padding: 30px;
-	margin: 15px 30px 0 0;
-	animation: ctamoveobject 3s infinite linear alternate;
-	z-index: 1;
-}
-
-@keyframes ctamoveobject{
-	50%{
-		right: 40px;
-	}
-}
-
-.company-timing h3{
-	font-size: 20px;
-	font-weight: 700;
-	text-transform: capitalize;
-	color: var(--white-color);
-	margin: 0 35px 20px 0;
-}
-
-.company-timing ul{
-	margin: 0;
-	padding: 0;
-	list-style: none;
-}
-
-.company-timing ul li{
-	font-size: 16px;
-	font-weight: 700;
-	margin-bottom: 10px;
-	display: flex;
-	color: var(--white-color);
-}
-
-.company-timing ul li span{
-	font-weight: 400;
-	width: 60%;
-}
-
-.company-timing ul li:last-child{
-	margin-bottom: 0;
-}
-
-.company-timing figure{
-	position: absolute;
-	top: 0;
-	right: 0;
-	transform: translate(30px, -15px);
-	border: 4px solid var(--white-color);
-	border-radius: 50%;
-	overflow: hidden;
-}
-
-.company-timing figure i{
-	width: 80px;
-	height: 80px;
-	background: var(--primary-color);
-	color: var(--white-color);
-	font-size: 40px;
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	transition: all 0.3s ease-in-out;
-}
-
-.company-timing:hover figure i{
-	background: var(--accent-color);
-}
 
 /************************************/
 /***     06. Our Services css     ***/
@@ -2014,18 +1805,25 @@ header.main-header .header-sticky.active{
 	cursor: none;
 	display: block;
 	border-radius: 26px;
+	display: flex;
+	justify-content: center;
 }
 
 .team-image img{
 	width: 100%;
-	aspect-ratio: 1 / 1.27;
+	/* aspect-ratio: 1 / 1.27; */
 	object-fit: cover;
 	border-radius: 26px;
 	transition: all 0.4s ease-in-out;
+	    background: linear-gradient(135deg, #1369b4, #4facfe);
+
+		    max-width: 200px;
+    margin: 0 auto;
+    border-radius: 50%;
 }
 
 .team-member-item:hover .team-image img{
-    transform: scale(1.1);
+    /* transform: scale(1.1); */
 }
 
 .team-body{
@@ -2035,7 +1833,7 @@ header.main-header .header-sticky.active{
 	border-radius: 26px;
 	padding: 15px;
 	margin: 0 10px;
-	margin-top: -60px;
+	margin-top: -2px;
 	z-index: 1;
 	transition: all 0.5s ease-in-out;
 	overflow: hidden;
