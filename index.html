@@ -57,7 +57,109 @@
 
 <body>
 
-    <?php require_once('header.php'); ?>
+     <!-- Preloader Start -->
+    <div class="preloader">
+        <div class="loading-container">
+            <div class="loading"></div>
+            <div id="loading-icon"><img src="images/logo/icon.webp" alt=""></div>
+        </div>
+    </div>
+
+    <!-- Topbar Section Start -->
+    <div class="topbar">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-9">
+                    <!-- Topbar Contact Information Start -->
+                    <div class="topbar-contact-info">
+                        <ul>
+                            <li><a href="#"><i class="fa-solid fa-clock"></i> <span>Working Hour:</span> 08:00am to
+                                    06:00pm</a></li>
+                            <li><a href="mailto:info@biomarcbiologics.com"><i class="fa-solid fa-envelope"></i>
+                                    <span>Email:</span> info@biomarcbiologics.com</a></li>
+                        </ul>
+                    </div>
+                    <!-- Topbar Contact Information End -->
+                </div>
+
+                <div class="col-lg-6 col-md-3">
+                    <!-- Topbar Social Details Start -->
+                    <div class="topbar-social-details">
+                        <!-- Header Social Icons Start -->
+                        <div class="topbar-social-icons">
+                            <ul>
+                                <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                                <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                            </ul>
+                        </div>
+                        <!-- Header Social Icons End -->
+
+                        <!-- Topbar Contact Details Start -->
+                        <div class="topbar-contact-info topbar-contact-details">
+                            <ul>
+                                <li><a href="tel:+919833690049"><span>Contact:</span> +91-9833690049</a></li>
+                            </ul>
+                        </div>
+                        <!-- Topbar Contact Details End -->
+                    </div>
+                    <!-- Topbar Social Details End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Topbar Section End -->
+    <style>
+        .navbar-brand .logo {
+            max-width: 150px;
+        }
+
+        @media only screen and (max-width: 991px) {
+            .navbar-brand .logo {
+                max-width: 125px;
+            }
+        }
+    </style>
+    <!-- Header Start -->
+    <header class="main-header">
+        <div class="header-sticky">
+            <nav class="navbar navbar-expand-lg">
+                <div class="container">
+                    <!-- Logo Start -->
+                    <a class="navbar-brand" href="index.html">
+                        <img src="images/logo/logo.webp" class="logo" alt="Biomarc Biologics Logo">
+                    </a>
+                    <!-- Logo End -->
+
+                    <!-- Main Menu Start -->
+                    <div class="collapse navbar-collapse main-menu">
+                        <div class="nav-menu-wrapper">
+                            <ul class="navbar-nav mr-auto" id="menu">
+                                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                                <li class="nav-item"><a class="nav-link" href="about.html">About Us</a></li>
+                                <li class="nav-item"><a class="nav-link" href="products.html">Our Products</a></li>
+                                <li class="nav-item"><a class="nav-link" href="team.html">Our Team</a></li>
+                                <li class="nav-item"><a class="nav-link" href="quality.html">Quality</a></li>
+                                <li class="nav-item"><a class="nav-link" href="contact.html">Contact Us</a></li>
+                                <li class="nav-item highlighted-menu"><a class="nav-link"
+                                        href="partnership.html">Partnership</a></li>
+                            </ul>
+                        </div>
+
+                        <!-- Header Button Start-->
+                        <div class="header-btn">
+                            <a href="contact.html" class="btn-default">Get in Touch</a>
+                        </div>
+                        <!-- Header Button End-->
+                    </div>
+                    <!-- Main Menu End -->
+                    <div class="navbar-toggle"></div>
+                </div>
+            </nav>
+            <div class="responsive-menu"></div>
+        </div>
+    </header>
+    <!-- Header End -->
 
 
     <!-- Hero Section Start -->
@@ -359,7 +461,7 @@
 }
 
 .about-stats {
-    margin: 40px 0 0 0;
+    margin: 40px 0 40px 0;
 }
 
 .stat-item {
@@ -368,6 +470,7 @@
     border-radius: 12px;
     transition: all 0.4s cubic-bezier(0.165, 0.84, 0.44, 1);
     background: var(--secondary-color);
+    border-bottom: 4px solid #1369b4;
 }
 
 .stat-item:hover {
@@ -655,6 +758,229 @@
 }
 </style>
 
+      <!-- Our Products Slider Section Start -->
+    <div class="our-services bg-section">
+        <div class="container">
+            <div class="row section-row align-items-center">
+                <div class="col-lg-12">
+                    <!-- Section Title Start -->
+                    <div class="section-title">
+                        <h3 class="wow fadeInUp">Our Products</h3>
+                        <h2 class="text-anime-style-3" data-cursor="-opaque">Innovative Solutions for Bone Health</h2>
+                    </div>
+                    <!-- Section Title End -->
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12">
+                    <!-- Products Slider Start -->
+                    <div class="testimonial-slider">
+                        <div class="swiper">
+                            <div class="swiper-wrapper" data-cursor-text="Drag">
+                                <!-- Product Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="service-item">
+                                        <!-- Service Header Start -->
+                                        <div class="service-header">
+                                            <!-- Service Item Box Start -->
+                                            <div class="service-item-box">
+                                                <div class="icon-box">
+                                                    <img src="images/icon-service-1.svg" alt="Bone34">
+                                                </div>
+                                                <div class="service-item-content">
+                                                    <h3>Bone34</h3>
+                                                </div>
+                                            </div>
+                                            <!-- Service Item Box End -->
+
+                                            <!-- Service Readmore Start -->
+                                            <div class="service-readmore">
+                                                <a href="#"><img src="images/arrow-dark.svg"
+                                                        alt="Learn More"></a>
+                                            </div>
+                                            <!-- Service Readmore End -->
+                                        </div>
+                                        <!-- Service Header End -->
+
+                                        <!-- Service Body Start -->
+                                        <div class="service-body">
+                                            <p>Teriparatide Injection for advanced osteoporosis treatment, stimulating
+                                                new bone formation.</p>
+                                        </div>
+                                        <!-- Service Body End -->
+
+                                        <!-- Service Image Start -->
+                                        <div class="service-image">
+                                            <a href="#" data-cursor-text="View">
+                                                <figure class="image-anime">
+                                                    <img src="images/product/1.webp" alt="Bone34 Product">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- Service Image End -->
+                                    </div>
+                                </div>
+                                <!-- Product Slide End -->
+
+                                <!-- Product Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="service-item">
+                                        <!-- Service Header Start -->
+                                        <div class="service-header">
+                                            <!-- Service Item Box Start -->
+                                            <div class="service-item-box">
+                                                <div class="icon-box">
+                                                    <img src="images/icon-service-2.svg" alt="Bonerank 60">
+                                                </div>
+                                                <div class="service-item-content">
+                                                    <h3>Bonerank 60</h3>
+                                                </div>
+                                            </div>
+                                            <!-- Service Item Box End -->
+
+                                            <!-- Service Readmore Start -->
+                                            <div class="service-readmore">
+                                                <a href="#"><img src="images/arrow-dark.svg"
+                                                        alt="Learn More"></a>
+                                            </div>
+                                            <!-- Service Readmore End -->
+                                        </div>
+                                        <!-- Service Header End -->
+
+                                        <!-- Service Body Start -->
+                                        <div class="service-body">
+                                            <p>Denosumab 60 mg for postmenopausal women with osteoporosis at high
+                                                fracture risk.</p>
+                                        </div>
+                                        <!-- Service Body End -->
+
+                                        <!-- Service Image Start -->
+                                        <div class="service-image">
+                                            <a href="#" data-cursor-text="View">
+                                                <figure class="image-anime">
+                                                    <img src="images/product/1.webp" alt="Bonerank 60 Product">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- Service Image End -->
+                                    </div>
+                                </div>
+                                <!-- Product Slide Ends -->
+
+                                <!-- Product Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="service-item">
+                                        <!-- Service Header Start -->
+                                        <div class="service-header">
+                                            <!-- Service Item Box Start -->
+                                            <div class="service-item-box">
+                                                <div class="icon-box">
+                                                    <img src="images/icon-service-3.svg" alt="Bon-NS">
+                                                </div>
+                                                <div class="service-item-content">
+                                                    <h3>Bon-NS</h3>
+                                                </div>
+                                            </div>
+                                            <!-- Service Item Box End -->
+
+                                            <!-- Service Readmore Start -->
+                                            <div class="service-readmore">
+                                                <a href="#"><img src="images/arrow-dark.svg"
+                                                        alt="Learn More"></a>
+                                            </div>
+                                            <!-- Service Readmore End -->
+                                        </div>
+                                        <!-- Service Header End -->
+
+                                        <!-- Service Body Start -->
+                                        <div class="service-body">
+                                            <p>Convenient Nasal Spray (60 Puffs) for osteoporosis management with easy
+                                                administration.</p>
+                                        </div>
+                                        <!-- Service Body End -->
+
+                                        <!-- Service Image Start -->
+                                        <div class="service-image">
+                                            <a href="#" data-cursor-text="View">
+                                                <figure class="image-anime">
+                                                    <img src="images/product/1.webp" alt="Bon-NS Product">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- Service Image End -->
+                                    </div>
+                                </div>
+                                <!-- Product Slide End -->
+
+                                <!-- Product Slide Start -->
+                                <div class="swiper-slide">
+                                    <div class="service-item">
+                                        <!-- Service Header Start -->
+                                        <div class="service-header">
+                                            <!-- Service Item Box Start -->
+                                            <div class="service-item-box">
+                                                <div class="icon-box">
+                                                    <img src="images/icon-service-1.svg" alt="Marc GFC">
+                                                </div>
+                                                <div class="service-item-content">
+                                                    <h3>Marc GFC</h3>
+                                                </div>
+                                            </div>
+                                            <!-- Service Item Box End -->
+
+                                            <!-- Service Readmore Start -->
+                                            <div class="service-readmore">
+                                                <a href="#"><img src="images/arrow-dark.svg"
+                                                        alt="Learn More"></a>
+                                            </div>
+                                            <!-- Service Readmore End -->
+                                        </div>
+                                        <!-- Service Header End -->
+
+                                        <!-- Service Body Start -->
+                                        <div class="service-body">
+                                            <p>Autologous Growth Factor concentrate for enhanced healing and tissue
+                                                regeneration.</p>
+                                        </div>
+                                        <!-- Service Body End -->
+
+                                        <!-- Service Image Start -->
+                                        <div class="service-image">
+                                            <a href="#" data-cursor-text="View">
+                                                <figure class="image-anime">
+                                                    <img src="images/product/1.webp" alt="Marc GFC Product">
+                                                </figure>
+                                            </a>
+                                        </div>
+                                        <!-- Service Image End -->
+                                    </div>
+                                </div>
+                                <!-- Product Slide End -->
+                            </div>
+                            <div class="testimonial-btn">
+                                <div class="testimonial-btn-prev"></div>
+                                <div class="testimonial-btn-next"></div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Products Slider End -->
+
+                    <!-- More Products Content Start -->
+                    <div class="more-service-content">
+                        <p class="wow fadeInUp" data-wow-delay="0.25s">Our specialized focus on musculoskeletal health
+                            and osteoporosis management ensures we deliver effective and reliable solutions to patients
+                            nationwide.</p>
+                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.5s">View All
+                            Products</a>
+                    </div>
+                    <!-- More Products Content End -->
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- Our Products Slider Section End -->
+
 <script>
     // Simple counter animation for stats
     document.addEventListener('DOMContentLoaded', function () {
@@ -689,6 +1015,171 @@
     });
 </script>
     <!-- About Us Section End -->
+
+
+      <div class="our-core-values">
+    <div class="container">
+        <div class="row">
+                <div class="col-lg-12">
+                    <!-- Values Section Start -->
+                    <div class="our-values wow fadeInUp" data-wow-delay="0.4s">
+                        <h3>Our Core Values</h3>
+                        <div class="values-grid">
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <i class="fa-solid fa-heart-pulse"></i>
+                                    <div class="value-glow"></div>
+                                </div>
+                                <h4>Patient-Centric</h4>
+                                <p>Patients are at the heart of every decision we make</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <i class="fa-solid fa-flask"></i>
+                                    <div class="value-glow"></div>
+                                </div>
+                                <h4>Innovation</h4>
+                                <p>Continuous research and development drive our progress</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <i class="fa-solid fa-shield-halved"></i>
+                                    <div class="value-glow"></div>
+                                </div>
+                                <h4>Quality</h4>
+                                <p>Uncompromising standards in every product we deliver</p>
+                            </div>
+                            <div class="value-item">
+                                <div class="value-icon">
+                                    <i class="fa-solid fa-handshake"></i>
+                                    <div class="value-glow"></div>
+                                </div>
+                                <h4>Integrity</h4>
+                                <p>Ethical practices and transparency in all operations</p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Values Section End -->
+                </div>
+            </div>
+
+            <style>
+                /* Enhanced Values Section */
+                .our-values {
+                    background: var(--white-color);
+                    border-radius: 46px;
+                    padding: 50px;
+                    margin-top: 60px;
+                    text-align: center;
+
+                }
+
+                .our-values h3 {
+                    font-size: 32px;
+                    margin-bottom: 40px;
+                    color: var(--primary-color);
+                }
+
+                .values-grid {
+                    display: grid;
+                    grid-template-columns: repeat(4, 1fr);
+                    gap: 30px;
+                }
+
+                .value-item {
+                    text-align: center;
+                    padding: 30px 20px;
+                    border-radius: 26px;
+                    transition: all 0.3s ease-in-out;
+                    position: relative;
+                    overflow: hidden;
+                                        border: 1px solid var(--divider-color);
+                    box-shadow: 0 10px 30px rgba(11, 16, 48, 0.08);
+                }
+
+                .value-item:hover {
+                    background: var(--secondary-color);
+                    transform: translateY(-5px);
+                    box-shadow: 0 15px 30px rgba(19, 105, 180, 0.1);
+                }
+
+                .value-icon {
+                    width: 80px;
+                    height: 80px;
+                    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+                    border-radius: 20px;
+                    display: flex;
+                    align-items: center;
+                    justify-content: center;
+                    margin: 0 auto 20px;
+                    transition: all 0.3s ease-in-out;
+                    position: relative;
+                }
+
+                .value-item:hover .value-icon {
+                    transform: scale(1.1) rotate(5deg);
+                }
+
+                .value-glow {
+                    position: absolute;
+                    top: -10px;
+                    left: -10px;
+                    right: -10px;
+                    bottom: -10px;
+                    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
+                    border-radius: 30px;
+                    opacity: 0.1;
+                    z-index: 0;
+                    transition: all 0.3s ease;
+                }
+
+                .value-item:hover .value-glow {
+                    opacity: 0.2;
+                }
+
+                .value-icon i {
+                    font-size: 32px;
+                    color: var(--white-color);
+                    position: relative;
+                    z-index: 1;
+                }
+
+                .value-item h4 {
+                    font-size: 20px;
+                    margin-bottom: 15px;
+                    color: var(--primary-color);
+                }
+
+                .value-item p {
+                    margin: 0;
+                    font-size: 14px;
+                    line-height: 1.5;
+                    color: var(--text-color);
+                }
+
+                /* Responsive Design */
+                @media (max-width: 991px) {
+                    .values-grid {
+                        grid-template-columns: repeat(2, 1fr);
+                        gap: 20px;
+                    }
+
+                    .our-values {
+                        padding: 30px 25px;
+                        margin-top: 30px;
+                        border-radius: 26px;
+                    }
+                }
+
+                @media (max-width: 767px) {
+                    .values-grid {
+                        grid-template-columns: 1fr;
+                    }
+                }
+            </style>
+    </div>
+  </div>
+
 
 <!-- Mission Vision Section Start -->
 <div class="mission-vision bg-section">
@@ -1035,391 +1526,9 @@
 </style>
 
 
-  <div class="our-core-values">
-    <div class="container">
-        <div class="row">
-                <div class="col-lg-12">
-                    <!-- Values Section Start -->
-                    <div class="our-values wow fadeInUp" data-wow-delay="0.4s">
-                        <h3>Our Core Values</h3>
-                        <div class="values-grid">
-                            <div class="value-item">
-                                <div class="value-icon">
-                                    <i class="fa-solid fa-heart-pulse"></i>
-                                    <div class="value-glow"></div>
-                                </div>
-                                <h4>Patient-Centric</h4>
-                                <p>Patients are at the heart of every decision we make</p>
-                            </div>
-                            <div class="value-item">
-                                <div class="value-icon">
-                                    <i class="fa-solid fa-flask"></i>
-                                    <div class="value-glow"></div>
-                                </div>
-                                <h4>Innovation</h4>
-                                <p>Continuous research and development drive our progress</p>
-                            </div>
-                            <div class="value-item">
-                                <div class="value-icon">
-                                    <i class="fa-solid fa-shield-halved"></i>
-                                    <div class="value-glow"></div>
-                                </div>
-                                <h4>Quality</h4>
-                                <p>Uncompromising standards in every product we deliver</p>
-                            </div>
-                            <div class="value-item">
-                                <div class="value-icon">
-                                    <i class="fa-solid fa-handshake"></i>
-                                    <div class="value-glow"></div>
-                                </div>
-                                <h4>Integrity</h4>
-                                <p>Ethical practices and transparency in all operations</p>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Values Section End -->
-                </div>
-            </div>
 
-            <style>
-                /* Enhanced Values Section */
-                .our-values {
-                    background: var(--white-color);
-                    border-radius: 46px;
-                    padding: 50px;
-                    margin-top: 60px;
-                    text-align: center;
 
-                }
 
-                .our-values h3 {
-                    font-size: 32px;
-                    margin-bottom: 40px;
-                    color: var(--primary-color);
-                }
-
-                .values-grid {
-                    display: grid;
-                    grid-template-columns: repeat(4, 1fr);
-                    gap: 30px;
-                }
-
-                .value-item {
-                    text-align: center;
-                    padding: 30px 20px;
-                    border-radius: 26px;
-                    transition: all 0.3s ease-in-out;
-                    position: relative;
-                    overflow: hidden;
-                                        border: 1px solid var(--divider-color);
-                    box-shadow: 0 10px 30px rgba(11, 16, 48, 0.08);
-                }
-
-                .value-item:hover {
-                    background: var(--secondary-color);
-                    transform: translateY(-5px);
-                    box-shadow: 0 15px 30px rgba(19, 105, 180, 0.1);
-                }
-
-                .value-icon {
-                    width: 80px;
-                    height: 80px;
-                    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
-                    border-radius: 20px;
-                    display: flex;
-                    align-items: center;
-                    justify-content: center;
-                    margin: 0 auto 20px;
-                    transition: all 0.3s ease-in-out;
-                    position: relative;
-                }
-
-                .value-item:hover .value-icon {
-                    transform: scale(1.1) rotate(5deg);
-                }
-
-                .value-glow {
-                    position: absolute;
-                    top: -10px;
-                    left: -10px;
-                    right: -10px;
-                    bottom: -10px;
-                    background: linear-gradient(135deg, var(--accent-color) 0%, var(--accent-color-two) 100%);
-                    border-radius: 30px;
-                    opacity: 0.1;
-                    z-index: 0;
-                    transition: all 0.3s ease;
-                }
-
-                .value-item:hover .value-glow {
-                    opacity: 0.2;
-                }
-
-                .value-icon i {
-                    font-size: 32px;
-                    color: var(--white-color);
-                    position: relative;
-                    z-index: 1;
-                }
-
-                .value-item h4 {
-                    font-size: 20px;
-                    margin-bottom: 15px;
-                    color: var(--primary-color);
-                }
-
-                .value-item p {
-                    margin: 0;
-                    font-size: 14px;
-                    line-height: 1.5;
-                    color: var(--text-color);
-                }
-
-                /* Responsive Design */
-                @media (max-width: 991px) {
-                    .values-grid {
-                        grid-template-columns: repeat(2, 1fr);
-                        gap: 20px;
-                    }
-
-                    .our-values {
-                        padding: 30px 25px;
-                        margin-top: 30px;
-                        border-radius: 26px;
-                    }
-                }
-
-                @media (max-width: 767px) {
-                    .values-grid {
-                        grid-template-columns: 1fr;
-                    }
-                }
-            </style>
-    </div>
-  </div>
-
-      <!-- Our Products Slider Section Start -->
-    <div class="our-services bg-section">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Our Products</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Innovative Solutions for Bone Health</h2>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
-
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Products Slider Start -->
-                    <div class="testimonial-slider">
-                        <div class="swiper">
-                            <div class="swiper-wrapper" data-cursor-text="Drag">
-                                <!-- Product Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="service-item">
-                                        <!-- Service Header Start -->
-                                        <div class="service-header">
-                                            <!-- Service Item Box Start -->
-                                            <div class="service-item-box">
-                                                <div class="icon-box">
-                                                    <img src="images/icon-service-1.svg" alt="Bone34">
-                                                </div>
-                                                <div class="service-item-content">
-                                                    <h3>Bone34</h3>
-                                                </div>
-                                            </div>
-                                            <!-- Service Item Box End -->
-
-                                            <!-- Service Readmore Start -->
-                                            <div class="service-readmore">
-                                                <a href="#"><img src="images/arrow-dark.svg"
-                                                        alt="Learn More"></a>
-                                            </div>
-                                            <!-- Service Readmore End -->
-                                        </div>
-                                        <!-- Service Header End -->
-
-                                        <!-- Service Body Start -->
-                                        <div class="service-body">
-                                            <p>Teriparatide Injection for advanced osteoporosis treatment, stimulating
-                                                new bone formation.</p>
-                                        </div>
-                                        <!-- Service Body End -->
-
-                                        <!-- Service Image Start -->
-                                        <div class="service-image">
-                                            <a href="#" data-cursor-text="View">
-                                                <figure class="image-anime">
-                                                    <img src="images/product/1.webp" alt="Bone34 Product">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <!-- Service Image End -->
-                                    </div>
-                                </div>
-                                <!-- Product Slide End -->
-
-                                <!-- Product Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="service-item">
-                                        <!-- Service Header Start -->
-                                        <div class="service-header">
-                                            <!-- Service Item Box Start -->
-                                            <div class="service-item-box">
-                                                <div class="icon-box">
-                                                    <img src="images/icon-service-2.svg" alt="Bonerank 60">
-                                                </div>
-                                                <div class="service-item-content">
-                                                    <h3>Bonerank 60</h3>
-                                                </div>
-                                            </div>
-                                            <!-- Service Item Box End -->
-
-                                            <!-- Service Readmore Start -->
-                                            <div class="service-readmore">
-                                                <a href="#"><img src="images/arrow-dark.svg"
-                                                        alt="Learn More"></a>
-                                            </div>
-                                            <!-- Service Readmore End -->
-                                        </div>
-                                        <!-- Service Header End -->
-
-                                        <!-- Service Body Start -->
-                                        <div class="service-body">
-                                            <p>Denosumab 60 mg for postmenopausal women with osteoporosis at high
-                                                fracture risk.</p>
-                                        </div>
-                                        <!-- Service Body End -->
-
-                                        <!-- Service Image Start -->
-                                        <div class="service-image">
-                                            <a href="#" data-cursor-text="View">
-                                                <figure class="image-anime">
-                                                    <img src="images/product/1.webp" alt="Bonerank 60 Product">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <!-- Service Image End -->
-                                    </div>
-                                </div>
-                                <!-- Product Slide Ends -->
-
-                                <!-- Product Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="service-item">
-                                        <!-- Service Header Start -->
-                                        <div class="service-header">
-                                            <!-- Service Item Box Start -->
-                                            <div class="service-item-box">
-                                                <div class="icon-box">
-                                                    <img src="images/icon-service-3.svg" alt="Bon-NS">
-                                                </div>
-                                                <div class="service-item-content">
-                                                    <h3>Bon-NS</h3>
-                                                </div>
-                                            </div>
-                                            <!-- Service Item Box End -->
-
-                                            <!-- Service Readmore Start -->
-                                            <div class="service-readmore">
-                                                <a href="#"><img src="images/arrow-dark.svg"
-                                                        alt="Learn More"></a>
-                                            </div>
-                                            <!-- Service Readmore End -->
-                                        </div>
-                                        <!-- Service Header End -->
-
-                                        <!-- Service Body Start -->
-                                        <div class="service-body">
-                                            <p>Convenient Nasal Spray (60 Puffs) for osteoporosis management with easy
-                                                administration.</p>
-                                        </div>
-                                        <!-- Service Body End -->
-
-                                        <!-- Service Image Start -->
-                                        <div class="service-image">
-                                            <a href="#" data-cursor-text="View">
-                                                <figure class="image-anime">
-                                                    <img src="images/product/1.webp" alt="Bon-NS Product">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <!-- Service Image End -->
-                                    </div>
-                                </div>
-                                <!-- Product Slide End -->
-
-                                <!-- Product Slide Start -->
-                                <div class="swiper-slide">
-                                    <div class="service-item">
-                                        <!-- Service Header Start -->
-                                        <div class="service-header">
-                                            <!-- Service Item Box Start -->
-                                            <div class="service-item-box">
-                                                <div class="icon-box">
-                                                    <img src="images/icon-service-1.svg" alt="Marc GFC">
-                                                </div>
-                                                <div class="service-item-content">
-                                                    <h3>Marc GFC</h3>
-                                                </div>
-                                            </div>
-                                            <!-- Service Item Box End -->
-
-                                            <!-- Service Readmore Start -->
-                                            <div class="service-readmore">
-                                                <a href="#"><img src="images/arrow-dark.svg"
-                                                        alt="Learn More"></a>
-                                            </div>
-                                            <!-- Service Readmore End -->
-                                        </div>
-                                        <!-- Service Header End -->
-
-                                        <!-- Service Body Start -->
-                                        <div class="service-body">
-                                            <p>Autologous Growth Factor concentrate for enhanced healing and tissue
-                                                regeneration.</p>
-                                        </div>
-                                        <!-- Service Body End -->
-
-                                        <!-- Service Image Start -->
-                                        <div class="service-image">
-                                            <a href="#" data-cursor-text="View">
-                                                <figure class="image-anime">
-                                                    <img src="images/product/1.webp" alt="Marc GFC Product">
-                                                </figure>
-                                            </a>
-                                        </div>
-                                        <!-- Service Image End -->
-                                    </div>
-                                </div>
-                                <!-- Product Slide End -->
-                            </div>
-                            <div class="testimonial-btn">
-                                <div class="testimonial-btn-prev"></div>
-                                <div class="testimonial-btn-next"></div>
-                            </div>
-                        </div>
-                    </div>
-                    <!-- Products Slider End -->
-
-                    <!-- More Products Content Start -->
-                    <div class="more-service-content">
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Our specialized focus on musculoskeletal health
-                            and osteoporosis management ensures we deliver effective and reliable solutions to patients
-                            nationwide.</p>
-                        <a href="#" class="btn-default wow fadeInUp" data-wow-delay="0.5s">View All
-                            Products</a>
-                    </div>
-                    <!-- More Products Content End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Products Slider Section End -->
     <!-- Our Process Section Start -->
     <div class="our-process ">
         <div class="container">
@@ -1824,61 +1933,7 @@
 
 
 
-    <!-- Our Excellence Section Start -->
-    <div class="our-excellence">
-        <div class="container">
-            <div class="row section-row align-items-center">
-                <div class="col-lg-12">
-                    <!-- Section Title Start -->
-                    <div class="section-title">
-                        <h3 class="wow fadeInUp">Our Impact</h3>
-                        <h2 class="text-anime-style-3" data-cursor="-opaque">Advancing Healthcare Through Numbers</h2>
-                        <p class="wow fadeInUp" data-wow-delay="0.25s">Excellence in healthcare is our standard, and our
-                            impact reflects our commitment to improving patient outcomes and advancing pharmaceutical
-                            innovation.</p>
-                    </div>
-                    <!-- Section Title End -->
-                </div>
-            </div>
 
-            <div class="row">
-                <div class="col-lg-12">
-                    <!-- Excellence Counter Box Start -->
-                    <div class="excellence-counter-boxes">
-                        <!-- Excellence Counter Item Start -->
-                        <div class="excellence-counter-item">
-                            <h2><span class="counter">50</span>+</h2>
-                            <p>Healthcare Partners Across India</p>
-                        </div>
-                        <!-- Excellence Counter Item End -->
-
-                        <!-- Excellence Counter Item Start -->
-                        <div class="excellence-counter-item">
-                            <h2><span class="counter">8</span>+</h2>
-                            <p>Specialized Osteoporosis Products</p>
-                        </div>
-                        <!-- Excellence Counter Item End -->
-
-                        <!-- Excellence Counter Item Start -->
-                        <div class="excellence-counter-item">
-                            <h2><span class="counter">100</span>%</h2>
-                            <p>Adherence to Quality Standards</p>
-                        </div>
-                        <!-- Excellence Counter Item End -->
-
-                        <!-- Excellence Counter Item Start -->
-                        <div class="excellence-counter-item">
-                            <h2><span class="counter">6</span></h2>
-                            <p>Visionary Directors Driving Innovation</p>
-                        </div>
-                        <!-- Excellence Counter Item End -->
-                    </div>
-                    <!-- Excellence Counter Box End -->
-                </div>
-            </div>
-        </div>
-    </div>
-    <!-- Our Excellence Section End -->
 
     <!-- Our Faqs Section Start -->
     <div class="our-faqs bg-section">
@@ -2084,7 +2139,7 @@
                         <div class="team-body">
                             <!-- Team Content Start -->
                             <div class="team-content">
-                                <h3><a href="#">Mr. Harishchandra Mohapatra</a></h3>
+                                <h3><a href="#">Mr. Sandeep Kumar Gupta</a></h3>
                                 <p>Director</p>
                             </div>
                             <!-- Team Content End -->
@@ -2279,16 +2334,12 @@
                                         </div>
 
                                         <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time
-                                                to listen to my concerns and made sure I felt comfortable.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                                                 cum modi doloremque voluptatum enim quaerat.</p>
                                         </div>
 
                                         <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-1.jpg" alt="">
-                                                </figure>
-                                            </div>
+                                            
                                             <div class="author-content">
                                                 <h3>Brooklyn simmons</h3>
                                                 <p>orthodontics</p>
@@ -2310,16 +2361,12 @@
                                         </div>
 
                                         <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time
-                                                to listen to my concerns and made sure I felt comfortable.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                                                 cum modi doloremque voluptatum enim quaerat.</p>
                                         </div>
 
                                         <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>
+                                            
                                             <div class="author-content">
                                                 <h3>monika roy</h3>
                                                 <p>Dental hygienist</p>
@@ -2341,16 +2388,12 @@
                                         </div>
 
                                         <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time
-                                                to listen to my concerns and made sure I felt comfortable.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                                                 cum modi doloremque voluptatum enim quaerat.</p>
                                         </div>
 
                                         <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-3.jpg" alt="">
-                                                </figure>
-                                            </div>
+                                            
                                             <div class="author-content">
                                                 <h3>albert flores</h3>
                                                 <p>senior dentist</p>
@@ -2372,16 +2415,12 @@
                                         </div>
 
                                         <div class="testimonial-content">
-                                            <p>My first appointment, but the staff was so welcoming. They took the time
-                                                to listen to my concerns and made sure I felt comfortable.</p>
+                                            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Maiores
+                                                 cum modi doloremque voluptatum enim quaerat.</p>
                                         </div>
 
                                         <div class="testimonial-footer">
-                                            <div class="author-image">
-                                                <figure class="image-anime">
-                                                    <img src="images/author-2.jpg" alt="">
-                                                </figure>
-                                            </div>
+                                            
                                             <div class="author-content">
                                                 <h3>monika roy</h3>
                                                 <p>Dental hygienist</p>
@@ -2407,7 +2446,143 @@
 
 
     <!-- Footer Start -->
-    <?php require_once('footer.php'); ?>
+        <?php require_once('sticky-social.php'); ?>
+    <footer class="main-footer bg-section">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-4 col-md-12">
+                    <!-- About Footer Start -->
+                    <div class="about-footer">
+                        <!-- Footer Logo Start -->
+                        <div class="footer-logo">
+                            <img src="images/logo/logo2.webp" alt="Biomarc Biologics">
+                        </div>
+                        <!-- Footer Logo End -->
+
+                        <!-- About Footer Content Start -->
+                        <div class="about-footer-content">
+                            <p>Empowering Health • Inspiring Innovation • Enhancing Life</p>
+                            <p>Biomarc Biologics is dedicated to delivering innovative, high-quality, and affordable
+                                healthcare solutions across India.</p>
+                        </div>
+                        <!-- About Footer Content End -->
+                    </div>
+                    <!-- About Footer End -->
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <!-- Footer Links Start -->
+                    <div class="footer-links">
+                        <h3>Our Focus</h3>
+                        <ul>
+                            <li><a href="osteoporosis-products.html">Osteoporosis</a></li>
+                            <li><a href="biological-products.html">Biologicals</a></li>
+                            <li><a href="injectables.html">Injectables</a></li>
+                            <li><a href="specialty-medicines.html">Specialty Medicines</a></li>
+                            <li><a href="research-development.html">R&D Pipeline</a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Links End -->
+                </div>
+
+                <div class="col-lg-2 col-md-4 col-6">
+                    <!-- Footer Links Start -->
+                    <div class="footer-links">
+                        <h3>Quick Links</h3>
+                        <ul>
+                            <li><a href="index.html">Home</a></li>
+                            <li><a href="about.html">About Us</a></li>
+                            <li><a href="products.html">Products</a></li>
+                            <li><a href="team.html">Our Team</a></li>
+                            <li><a href="contact.html">Contact</a></li>
+                        </ul>
+                    </div>
+                    <!-- Footer Links End -->
+                </div>
+
+                <div class="col-lg-4 col-md-4">
+                    <!-- Footer Contact Box Start -->
+                    <div class="footer-contact-box footer-links">
+                        <h3>Contact Us</h3>
+
+                        <!-- Footer Contact Item Start -->
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="images/icon-mail.svg" alt="Email">
+                            </div>
+                            <div class="footer-contact-content">
+                                <p>info@biomarcbiologics.com</p>
+                            </div>
+                        </div>
+                        <!-- Footer Contact Item End -->
+
+                        <!-- Footer Contact Item Start -->
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="images/icon-phone.svg" alt="Phone">
+                            </div>
+                            <div class="footer-contact-content">
+                                <p>+91-9833690049</p>
+                            </div>
+                        </div>
+                        <!-- Footer Contact Item End -->
+
+                        <!-- Footer Contact Item Start -->
+                        <div class="footer-contact-item">
+                            <div class="icon-box">
+                                <img src="images/icon-location.svg" alt="Location">
+                            </div>
+                            <div class="footer-contact-content">
+                                <p>46/b Kurla Kamgar Nagar, SG Barve Marg, Kamgar Nagar, Kurla, Mumbai, Maharashtra</p>
+                            </div>
+                        </div>
+                        <!-- Footer Contact Item End -->
+                    </div>
+                    <!-- Footer Contact Box End -->
+                </div>
+
+                <div class="col-lg-12">
+                    <!-- Footer Social Links Start -->
+                    <div class="footer-social-link">
+                        <hr>
+                        <ul>
+                            <li><a href="#"><i class="fa-brands fa-linkedin-in"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-twitter"></i></a></li>
+                            <li><a href="#"><i class="fa-brands fa-facebook-f"></i></a></li>
+                        </ul>
+                        <hr>
+                    </div>
+                    <!-- Footer Social Links End -->
+                </div>
+            </div>
+
+            <!-- Footer Copyright Section Start -->
+            <div class="footer-copyright">
+                <div class="row align-items-center">
+                    <div class="col-md-6">
+                        <!-- Footer Copyright Start -->
+                        <div class="footer-copyright-text">
+                            <p>Copyright © 2024 Biomarc Biologics Pvt. Ltd. All Rights Reserved.</p>
+                        </div>
+                        <!-- Footer Copyright End -->
+                    </div>
+
+                    <div class="col-md-6">
+                        <!-- Footer Terms Condition Start -->
+                        <div class="footer-terms-condition">
+                            <ul>
+                                <li><a href="privacy-policy.html">Privacy Policy</a>
+                                <li><a href="terms-conditions.html">Terms & Conditions</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- Footer Terms Condition End -->
+                    </div>
+                </div>
+            </div>
+            <!-- Footer Copyright Section End -->
+        </div>
+    </footer>
 
     <!-- Footer End -->
 

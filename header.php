@@ -68,7 +68,7 @@
                 <div class="container">
                     <!-- Logo Start -->
                     <a class="navbar-brand" href="index.html">
-                        <img src="images/logo/logo2.webp" class="logo" alt="Biomarc Biologics Logo">
+                        <img src="images/logo/logo.webp" class="logo" alt="Biomarc Biologics Logo">
                     </a>
                     <!-- Logo End -->
 
