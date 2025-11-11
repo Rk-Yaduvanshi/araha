@@ -741,6 +741,10 @@
     .floating-element {
         display: none;
     }
+    .stat-item {
+   max-width: 70%;
+   margin: 0 auto 20px;
+}
 }
 
 @media (max-width: 767px) {
@@ -1189,7 +1193,8 @@
         <div class="row">
             <div class="col-lg-6">
                 <!-- Mission Card Start -->
-                <div class="mv-card mission-card wow fadeInUp">
+               <div class="card-one">
+                 <div class="mv-card mission-card wow fadeInUp">
                     <div class="card-ornament">
                         <div class="ornament-circle"></div>
                         <div class="ornament-dots">
@@ -1226,12 +1231,14 @@
                         </div>
                     </div>
                 </div>
+               </div>
                 <!-- Mission Card End -->
             </div>
 
             <div class="col-lg-6">
                 <!-- Vision Card Start -->
-                <div class="mv-card vision-card wow fadeInUp" data-wow-delay="0.2s">
+                <div class="card-two">
+                    <div class="mv-card vision-card wow fadeInUp" data-wow-delay="0.2s">
                     <div class="card-ornament">
                         <div class="ornament-circle"></div>
                         <div class="ornament-dots">
@@ -1268,6 +1275,7 @@
                         </div>
                     </div>
                 </div>
+                </div>
                 <!-- Vision Card End -->
             </div>
         </div>
@@ -1286,7 +1294,9 @@
         background-position: center center;
         background-size: cover;
     }
-
+   .card-one {
+  margin-bottom: 20px;
+   }
     .mv-card {
         background: var(--white-color);
         border-radius: 46px;
